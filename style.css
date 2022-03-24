@@ -1,0 +1,111 @@
+h1 {
+    font-size: 60px;
+    color: blue;
+    
+    box-shadow: 8px 8px 15px 8px;
+    position: absolute;
+    
+}
+    body {
+       background-image: url(img/todo.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+
+    header, form {
+
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form input {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(67, 67, 124);
+		box-shadow: 10px 8px 10px 8px;
+        padding: 0.5rem;
+        font-size: 1rem;
+        margin: 5px;
+        cursor: pointer;
+        
+        
+    }
+    form input:hover {
+        background: rgb(46, 44, 43);
+        color: white;
+    }
+    
+     .todo-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+      .todo-list {
+        width: 40%;
+          list-style: none;
+          
+      }
+
+      .todo-item {
+          font-family: fantasy;
+          color:rgb(67, 67, 124);
+          box-shadow: 9px 9px 15px 9px;
+          margin: 30px;
+          padding: 10px;
+          
+          letter-spacing: 5px;
+          display:flex;
+          font-size: 30px;
+          justify-content:space-between;
+		  
+    
+    }
+    
+       
+      .delete-btn {
+          
+          background-image: url(img/delete.png);
+          background-color:rgb(67, 67, 124);
+          cursor: pointer;
+          background-repeat: no-repeat;
+          height: 35px;
+          width: 35px;
+          
+          
+      }
+      .check-btn {
+
+        background-image: url(img/checkbox.png);
+        background-color:rgb(67, 67, 124);
+        cursor: pointer;
+        background-repeat: no-repeat;
+        height: 35px;
+        width: 35px;
+        background-size:32px ;
+        
+        
+      }
+      .checked {
+          text-decoration: line-through;
+          opacity: 0.7;
+		  color:black;
+      }
+      
+      #date{
+        font-size: 40px;
+         display: flex;
+		 justify-content: center;
+		 align-items: center;
+        box-shadow: 4px 4px 10px 4px;
+		
+        color:blue;
+
+
+
+      }
+      .down {
+		  transform: translateY(2rem) rotateZ(10deg);
+		 
+		
+	  }
